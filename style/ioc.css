@@ -1,0 +1,118 @@
+/* Layout */
+
+#page-footer {
+    float: none;
+    width: auto;
+}
+
+/* Global */
+
+body {
+    color: #282828;
+}
+
+a:link, a:visited {
+    color: #005388;
+}
+
+a:hover ,a:active {
+    color: #002a45;
+}
+
+#maincontent {
+    height: 0;
+}
+
+label::after {
+    content: ' ';
+}
+
+/* Header */
+
+#page-header {
+    background-image: none;
+    background-color: #282828;
+    border-bottom-color: #009cda;
+}
+
+#page-header .headermenu {
+    color: #bbb;
+}
+
+#page-header a:link, #page-header a:visited {
+    color: #fff;
+}
+
+#page-header a:hover, #page-header a:active {
+    color: #ddd;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #f3f3f3;
+}
+
+/* Blocks */
+
+.block .header {
+    border-top-color: #009cda;
+    background-color: #f3f3f3;
+}
+
+/* Forum */
+
+.forumpost .topic {
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.forumpost .content {
+    background-color: transparent;
+    border-color: #f3f3f3;
+}
+
+.mform .fsubmit {
+    text-align: left;
+}
+
+/* Course */
+
+h2.headingblock {
+    padding: 4px 5px 5px;
+    border-top: 2px solid #009cda;
+    border-bottom: none;
+    background-color: #f3f3f3;
+}
+
+.coursebox {
+    border: none;
+}
+
+.course-content ul.topics li.section:first-child {
+    margin-top: 0;
+}
+
+.course-content .main {
+    background-color: #f3f3f3;
+}
+
+/* Dock */
+
+#dock {
+    background-color: #f3f3f3;
+    border-right-color: #ddd;
+}
+
+#dock .dockeditem .dockedtitle.activeitem {
+    background: #f3f3f3;
+    border-top-color: #f3f3f3;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    border-color: #ddd;
+}
+
+#dockeditempanel .dockeditempanel_hd {
+    background: #f3f3f3;
+}
