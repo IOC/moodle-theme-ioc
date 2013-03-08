@@ -116,3 +116,9 @@ h2.headingblock {
 #dockeditempanel .dockeditempanel_hd {
     background: #f3f3f3;
 }
+
+/* Theme mail */
+
+.theme_mail_button {
+    text-align: center;
+}
