@@ -116,3 +116,13 @@ h2.headingblock {
 #dockeditempanel .dockeditempanel_hd {
     background: #f3f3f3;
 }
+
+/* Quiz */
+
+#page-mod-quiz-attempt #region-pre {
+    display: none;
+}
+
+#page-mod-quiz-attempt #page-content #region-main {
+    margin-left: 0;
+}
