@@ -10,4 +10,11 @@ $THEME->layouts = array(
         'file' => 'general.php',
         'regions' => array(),
     ),
+    'frontpage' => array(
+        'file' => 'general.php',
+        'regions' => array('side-pre', 'side-post'),
+        'defaultregion' => 'side-post',
+    ),
 );
+
+$THEME->rendererfactory = 'theme_overridden_renderer_factory';

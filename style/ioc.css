@@ -29,6 +29,11 @@ label::after {
 
 /* Header */
 
+.ioclogo {
+    float: left;
+    margin-left: 25px;
+}
+
 #page-header {
     background-image: none;
     background-color: #282828;
@@ -37,6 +42,12 @@ label::after {
 
 #page-header .headermenu {
     color: #bbb;
+}
+
+#page-header h1.headermain {
+    float: right;
+    margin: 10px 0;
+    color: #fff;
 }
 
 #page-header a:link, #page-header a:visited {
@@ -95,6 +106,35 @@ h2.headingblock {
 
 .course-content .main {
     background-color: #f3f3f3;
+}
+
+.course-content .current {
+    background-color: #c4e4f8;
+}
+
+#page-mod-forum-view .unread,
+.forumpost.unread .row.header,
+.path-course-view .unread,
+span.unread {
+    background-color: #c4e4f8;
+}
+
+.forumpost.unread .row.header {
+    border: 1px solid #009cda;
+}
+
+.forumpost {
+    max-width: 99%;
+}
+
+span.unread a {
+    color: #000;
+}
+
+img.iconlarge {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
 }
 
 /* Dock */
