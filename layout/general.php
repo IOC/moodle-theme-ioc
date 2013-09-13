@@ -34,7 +34,8 @@ echo $OUTPUT->doctype() ?>
 <html <?php echo $OUTPUT->htmlattributes() ?>>
 <head>
     <title><?php echo $PAGE->title ?></title>
-    <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
+    <?php $imgname = (!isset($CFG->local_testing_mode)?'favicon':'favicon_proves'); ?>
+    <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url($imgname, 'theme')?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
 </head>
 
@@ -43,9 +44,10 @@ echo $OUTPUT->doctype() ?>
 
 <div id="page">
 <?php if ($hasheading) { ?>
-    <div id="page-header">
+    <div id="page-header" <?php echo (!isset($CFG->local_testing_mode)?'':'class="proves"'); ?>>
         <div class="ioclogo">
-            <img src="<?php echo $OUTPUT->pix_url('ioc_logo', 'theme')?>" />
+            <?php $imgname = (!isset($CFG->local_testing_mode))?'ioc_logo':'ioc_proves'; ?>
+            <img src="<?php echo $OUTPUT->pix_url($imgname, 'theme')?>" />
         </div>
         <div id="page-header-wrapper" class="wrapper clearfix">
                 <div class="headermenu"><?php

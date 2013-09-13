@@ -58,6 +58,14 @@ label::after {
     color: #ddd;
 }
 
+#page-header.proves {
+    border-bottom-color: #ffa500;
+}
+
+#page-header.proves h1.headermain {
+    color: #ffa500;
+}
+
 /* Navbar */
 
 .navbar {
