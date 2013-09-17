@@ -15,6 +15,11 @@ $THEME->layouts = array(
         'regions' => array('side-pre', 'side-post'),
         'defaultregion' => 'side-post',
     ),
+    'report' => array(
+        'file' => 'general.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+    ),
 );
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
