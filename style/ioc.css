@@ -97,7 +97,10 @@ label::after {
 
 /* Course */
 
-h2.headingblock {
+#site-news-forum h2,
+#frontpage-course-list h2,
+#frontpage-category-names h2,
+#frontpage-category-combo h2 {
     padding: 4px 5px 5px;
     border-top: 2px solid #009cda;
     border-bottom: none;
