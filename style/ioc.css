@@ -89,6 +89,7 @@ label::after {
 .forumpost .content {
     background-color: transparent;
     border-color: #f3f3f3;
+    padding: 1em;
 }
 
 .mform .fsubmit {
