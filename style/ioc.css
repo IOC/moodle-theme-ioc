@@ -142,10 +142,9 @@ span.unread a {
     color: #000;
 }
 
-img.iconlarge {
+.course-content .section .activity img.iconlarge {
     height: 20px;
     width: 20px;
-    vertical-align: middle;
 }
 
 /* Dock */
