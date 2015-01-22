@@ -171,3 +171,44 @@ span.unread a {
 .blauioc {
     color: #0000ff;
 }
+
+/* Confirm dialog */
+
+.ioc-confirmation-dialogue.yui3-panel-content .yui3-widget-hd {
+    background: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 3px #009CDA solid;
+}
+
+.ioc-confirmation-dialogue.yui3-panel-content .yui3-widget-ft {
+    background: #f6f6f6;
+}
+
+.ioc-confirmation-dialogue.yui3-panel-content .confirmation-message {
+    font-size: 1.1em;
+}
+
+.ioc-confirmation-dialogue .ioc-warning {
+    margin-right: 10px;
+}
+
+.ioc-confirmation-dialogue .yui3-button-primary {
+    width: 6em;
+}
+
+.ioc-confirmation-dialogue .confirmation-message div {
+    color: #d91e18;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.ioc-confirmation-dialogue .close-button {
+    font-family: sans-serif;
+    color: #fff;
+    background: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    width: 1em;
+    padding: 0;
+}
