@@ -1,0 +1,15 @@
+body {
+  background-color: #009CDA !important;
+}
+
+.user-menu,
+.user-menu header,
+.header-main,
+#app-dialog .modalHeader {
+  background-color: #009cda;
+}
+
+.path-messages .conversation .conversation-area .bubble-alt,
+.path-messages .conversation .conversation-area .bubble-alt:before {
+  border-color: #009cda;
+
